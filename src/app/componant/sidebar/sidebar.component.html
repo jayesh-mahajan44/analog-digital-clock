@@ -1,0 +1,37 @@
+<h1 style="text-align: center;">Analog clock</h1>
+
+<div class="center">
+    <div class="hour" #hour></div>
+    <div class="minute" #minute></div>
+    <div class="second" #second></div>      
+    <div class="circle"></div>
+    <div class="clock clocknumbers1"><div class="rotate1">1</div></div>
+    <div class="clock clocknumbers2"><div class="rotate2">2</div></div>
+    <div class="clock clocknumbers3"><div class="rotate3">3</div></div>
+    <div class="clock clocknumbers4"><div class="rotate4">4</div></div>
+    <div class="clock clocknumbers5"><div class="rotate5">5</div></div>
+    <div class="clock clocknumbers6"><div class="rotate6">6</div></div>
+    <div class="clock clocknumbers7"><div class="rotate7">7</div></div>
+    <div class="clock clocknumbers8"><div class="rotate8">8</div></div>
+    <div class="clock clocknumbers9"><div class="rotate9">9</div></div>
+    <div class="clock clocknumbers10"><div class="rotate10">10</div></div>
+    <div class="clock clocknumbers11"><div class="rotate11">11</div></div>
+    <div class="clock clocknumbers12"><div class="rotate12">12</div></div>
+
+    <div class="getDate" > 
+        <div >{{ currentDate }}- </div>
+        <div>{{ currentMonth}}- </div>
+        <div>{{ currentYear }}</div>
+        </div>
+    <h4 class="getDay">{{day}}</h4>
+
+
+</div>
+<h1 style="text-align: center;">Digital clock</h1>
+
+<div class="square">
+<div> {{getHr}} :</div>
+<div>{{getMinute}} : </div>
+<div>{{getSecond}}  </div>
+<div id="AMPM"> </div>    
+</div>
